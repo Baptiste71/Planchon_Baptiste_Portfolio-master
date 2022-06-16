@@ -1,19 +1,24 @@
 import React from "react";
 import "./_app.scss";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/home/Home";
+import Formation from "./pages/formation/Formation";
+import Experience from "./pages/experiences/Experiences";
+import Vpresentation from "./pages/video-presentation/Vpresentation";
+import Contact from "./pages/contact/Contact";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="" className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/experiences" element={<Experience />} />
+        <Route path="/formation" element={<Formation />} />
+        <Route path="/videopresentation" element={<Vpresentation />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
