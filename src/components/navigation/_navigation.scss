@@ -1,0 +1,12 @@
+@import "../../style/_main.scss";
+
+.navigation {
+  @include flexJustifyCenter;
+  @include flexDirectionRow;
+}
+
+.direction {
+  @include flexDirectionRow;
+  width: 75%;
+  justify-content: space-around;
+}
