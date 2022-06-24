@@ -20,7 +20,7 @@ const Home = () => {
           </button>
         </div>
         <div className="photoOfMe">
-          <img src="" alt="" />
+          <img src="public\photo_cv.JPG" alt="Photo de profil" />
         </div>
         <div>
           <button
