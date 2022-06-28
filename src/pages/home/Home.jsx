@@ -1,4 +1,5 @@
 import React from "react";
+import "./_home.scss";
 import Navigation from "../../components/navigation/Navigation";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
@@ -20,7 +21,7 @@ const Home = () => {
           </button>
         </div>
         <div className="photoOfMe">
-          <img src="public\photo_cv.JPG" alt="Photo de profil" />
+          <img className="me" src="img/photo_cv.jpg" alt="Photo de profil" />
         </div>
         <div>
           <button
