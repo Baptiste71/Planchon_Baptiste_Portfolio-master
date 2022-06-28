@@ -8,51 +8,62 @@ import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div>
+    <div className="homePage">
       <Navigation />
       <div className="presentation">
         <div className="txt">
           <h1>Baptiste Planchon</h1>
-          <p className="shortPresentation"></p>
-          <button className="go">
+          <p className="shortPresentation">
+            Je suis développeur web full stack. Je sors du cursus de formation d’OpenClassroom où j’y ai passé mon diplôme de développeur. Par le biais de plusieurs projets professionnalisants, j’ai appris les langages frontend (HTML5, CSS3, SASS,
+            JavaScript ainsi que le Framework React) et backend (JavaScript, le Framework Express de Node.js, les bases de données SQL avec PostgreSQL et l’ORM Sequelize et les bases de données NoSQL avec MongoDB).
+          </p>
+          <button className="go" type="submit">
             <NavLink className="btnGo" to="/experiences">
               Allons-y
             </NavLink>
           </button>
         </div>
-        <div className="photoOfMe">
-          <img className="me" src="img/photo_cv.jpg" alt="Photo de profil" />
-        </div>
-        <div>
+      </div>
+      <div className="homeFooter">
+        <div className="linkButton">
           <button
             type="button"
+            className="link"
             onClick={(e) => {
               e.preventDefault();
               window.location.href = "https://www.linkedin.com/in/baptiste-planchon-28603b219/";
             }}
           >
-            <LinkedInIcon />
+            <LinkedInIcon className="iconSocialMedia" />
           </button>
           <button
             type="button"
+            className="link"
             onClick={(e) => {
               e.preventDefault();
               window.location.href = "https://twitter.com/PaniKorZ";
             }}
           >
-            <TwitterIcon />
+            <TwitterIcon className="iconSocialMedia" />
           </button>
           <button
             type="button"
+            className="link"
             onClick={(e) => {
               e.preventDefault();
               window.location.href = "https://github.com/Baptiste71";
             }}
           >
-            <GitHubIcon />
+            <GitHubIcon className="iconSocialMedia" />
           </button>
         </div>
-        <p className="description">Réalisé avec React</p>
+        <div className="description">
+          <p>Réalisé avec React</p>
+        </div>
+      </div>
+
+      <div className="photoOfMe">
+        <img className="me" src="img/photo_cv.jpg" alt="Photo de profil" />
       </div>
     </div>
   );

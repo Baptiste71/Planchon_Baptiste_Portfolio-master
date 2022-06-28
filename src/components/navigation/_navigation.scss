@@ -3,10 +3,18 @@
 .navigation {
   @include flexJustifyCenter;
   @include flexDirectionRow;
+  @include policeTxt;
+  background-color: $barNavBackground;
+  width: 100%;
 }
 
 .direction {
   @include flexDirectionRow;
   width: 75%;
   justify-content: space-around;
+  & a {
+    color: $txtColorPrimary;
+    text-decoration: none;
+    list-style: none;
+  }
 }

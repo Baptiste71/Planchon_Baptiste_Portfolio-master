@@ -1,3 +1,17 @@
+//Police d'écriture//
+
+@mixin policeTxt {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+@mixin police-txt-second {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+//Flexbox//
+
 @mixin flex {
   display: flex;
 }
@@ -10,4 +24,24 @@
 @mixin flexDirectionRow {
   display: flex;
   flex-direction: row;
+}
+
+@mixin flexSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin flexJustifyFlexEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@mixin flexJustifyFlexStart {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@mixin alignItemFlexEnd {
+  display: flex;
+  align-items: flex-end;
 }

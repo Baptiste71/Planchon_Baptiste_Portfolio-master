@@ -1,4 +1,116 @@
+@import "../../style/_main.scss";
+
+//Background//
+.homePage {
+  background-color: black;
+}
+
+//ensemble des éléments//
+.presentation {
+  width: 50%;
+}
+
+//titre//
+h1 {
+  @include policeTxt;
+  @include flexJustifyCenter;
+  font-size: 48px;
+  color: $txtColorPrimary;
+  padding-left: 3%;
+  margin-top: 150px;
+  margin-bottom: 70px;
+}
+
+//Paragraphe présentation//
+.shortPresentation {
+  @include police-txt-second;
+  @include flexJustifyCenter;
+  font-size: 22px;
+  color: $txtColorPrimary;
+  padding-left: 29%;
+}
+
+//Bouton//
+.go {
+  background-color: $buttonColor;
+  margin-top: 50px;
+  margin-left: 29%;
+  width: 35%;
+  height: 60px;
+  border-radius: 13px;
+  border: 1px solid $buttonColor;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0px 6px 10px $buttonColor;
+  }
+  & a {
+    color: $txtColorPrimary;
+    width: 100%;
+    text-decoration: none;
+    font-size: 25px;
+  }
+}
+
+// Ensemble des éléments footer//
+.homeFooter {
+  @include flexDirectionRow;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+//Ensemble des boutons des liens réseaux sociaux//
+.linkButton {
+  margin-top: 180px;
+  margin-left: 14%;
+  @include flexJustifyFlexStart;
+  width: 40%;
+}
+
+//Bouton lien//
+.link {
+  border: 2px solid $txtColorPrimary;
+  opacity: 0.5;
+  border-radius: 13px;
+  background-color: black;
+  width: 28%;
+  height: 70px;
+  margin-right: 5%;
+  z-index: 2;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0px 6px 10px $txtColorPrimary;
+    opacity: 1;
+  }
+}
+
+// Texte React //
+
+.description {
+  @include alignItemFlexEnd;
+  margin-right: 20%;
+  color: $txtColorPrimary;
+}
+
+svg.MuiSvgIcon-root.iconSocialMedia {
+  color: $txtColorPrimary;
+  font-size: 40px;
+}
+
+//photo//
+.photoOfMe {
+  @include flexJustifyFlexEnd;
+  margin-right: 10%;
+  position: absolute;
+  top: 150px;
+  z-index: 1;
+  visibility: hidden;
+}
+
 .me {
-  width: 200px;
-  height: 200px;
+  border: 1px solid black;
+  border-radius: 48%;
+  width: 30%;
+  height: 20%;
+  visibility: visible;
 }
