@@ -5,18 +5,26 @@
   background-color: black;
 }
 
+body {
+  background-color: black;
+}
+
 //ensemble des éléments//
 .presentation {
   width: 50%;
 }
 
+.txt {
+  @include flexDirectionCol;
+  width: 85%;
+  padding-left: 29%;
+}
+
 //titre//
 h1 {
   @include policeTxt;
-  @include flexJustifyCenter;
   font-size: 48px;
   color: $txtColorPrimary;
-  padding-left: 3%;
   margin-top: 150px;
   margin-bottom: 70px;
 }
@@ -26,15 +34,14 @@ h1 {
   @include police-txt-second;
   @include flexJustifyCenter;
   font-size: 22px;
+  width: 85%;
   color: $txtColorPrimary;
-  padding-left: 29%;
 }
 
 //Bouton//
 .go {
   background-color: $buttonColor;
   margin-top: 50px;
-  margin-left: 29%;
   width: 35%;
   height: 60px;
   border-radius: 13px;
@@ -54,6 +61,7 @@ h1 {
 // Ensemble des éléments footer//
 .homeFooter {
   @include flexDirectionRow;
+  @include homeTabletsFooter;
   justify-content: space-between;
   width: 100%;
   padding-bottom: 20px;
@@ -61,6 +69,7 @@ h1 {
 
 //Ensemble des boutons des liens réseaux sociaux//
 .linkButton {
+  @include homeTabletsLinkButton;
   margin-top: 180px;
   margin-left: 14%;
   @include flexJustifyFlexStart;
@@ -87,6 +96,7 @@ h1 {
 // Texte React //
 
 .description {
+  @include homeTabletsDescription;
   @include alignItemFlexEnd;
   margin-right: 20%;
   color: $txtColorPrimary;
@@ -100,6 +110,7 @@ svg.MuiSvgIcon-root.iconSocialMedia {
 //photo//
 .photoOfMe {
   @include flexJustifyFlexEnd;
+  @include homeTabletsPhoto;
   margin-right: 10%;
   position: absolute;
   top: 150px;
