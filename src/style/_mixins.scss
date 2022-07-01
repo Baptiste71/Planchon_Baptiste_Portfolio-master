@@ -53,11 +53,46 @@
 
 // Responsive Design //
 
+// Barre de navigation
+
+@mixin navMobile {
+  @media screen and (max-width: $breakpointsTablets) {
+    display: none;
+  }
+}
+
+@mixin displayInitial {
+  @media screen and (max-width: $breakpointsTablets) {
+    display: initial;
+    color: $txtColorPrimary;
+  }
+}
+
+// Page d'accueil //
+
+// Photo //
+
 @mixin homeTabletsPhoto {
   @media screen and (min-width: $breakpointsTablets) and (max-width: $breakpointsDesktop) {
     top: 300px;
   }
 }
+
+@mixin homeMobilePhoto {
+  @media screen and (max-width: $breakpointsTablets) {
+    top: 150px;
+    right: 20%;
+  }
+}
+
+@mixin mobilePhoto {
+  @media screen and (max-width: $breakpointsTablets) {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+// Presentation //
 
 @mixin homeTabletsFooter {
   @media screen and (min-width: $breakpointsTablets) and (max-width: $breakpointsDesktop) {
@@ -75,6 +110,53 @@
 
 @mixin homeTabletsDescription {
   @media screen and (min-width: $breakpointsTablets) and (max-width: $breakpointsDesktop) {
+    margin-right: 0%;
+  }
+}
+
+@mixin presentation {
+  @media screen and (max-width: $breakpointsTablets) {
+    width: 100%;
+    margin-top: 250px;
+  }
+}
+
+@mixin divTxt {
+  @media screen and (max-width: $breakpointsTablets) {
+    width: 100%;
+    padding-left: 0%;
+    align-items: center;
+  }
+}
+
+@mixin nameTitle {
+  @media screen and (max-width: $breakpointsTablets) {
+    font-size: 35px;
+  }
+}
+
+@mixin textAlignCenter {
+  @media screen and (max-width: $breakpointsTablets) {
+    text-align: center;
+  }
+}
+
+@mixin homeMobileFooter {
+  @media screen and (max-width: $breakpointsTablets) {
+    @include flexDirectionCol;
+    align-items: center;
+  }
+}
+
+@mixin homeMobileLinkButton {
+  @media screen and (max-width: $breakpointsTablets) {
+    margin-left: 5%;
+    width: 80%;
+  }
+}
+
+@mixin homeMobileDescription {
+  @media screen and (max-width: $breakpointsTablets) {
     margin-right: 0%;
   }
 }

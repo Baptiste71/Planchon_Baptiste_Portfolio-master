@@ -11,10 +11,12 @@ body {
 
 //ensemble des éléments//
 .presentation {
+  @include presentation;
   width: 50%;
 }
 
 .txt {
+  @include divTxt;
   @include flexDirectionCol;
   width: 85%;
   padding-left: 29%;
@@ -22,6 +24,7 @@ body {
 
 //titre//
 h1 {
+  @include nameTitle;
   @include policeTxt;
   font-size: 48px;
   color: $txtColorPrimary;
@@ -31,6 +34,7 @@ h1 {
 
 //Paragraphe présentation//
 .shortPresentation {
+  @include textAlignCenter;
   @include police-txt-second;
   @include flexJustifyCenter;
   font-size: 22px;
@@ -61,6 +65,7 @@ h1 {
 // Ensemble des éléments footer//
 .homeFooter {
   @include flexDirectionRow;
+  @include homeMobileFooter;
   @include homeTabletsFooter;
   justify-content: space-between;
   width: 100%;
@@ -69,6 +74,7 @@ h1 {
 
 //Ensemble des boutons des liens réseaux sociaux//
 .linkButton {
+  @include homeMobileLinkButton;
   @include homeTabletsLinkButton;
   margin-top: 180px;
   margin-left: 14%;
@@ -96,6 +102,7 @@ h1 {
 // Texte React //
 
 .description {
+  @include homeMobileDescription;
   @include homeTabletsDescription;
   @include alignItemFlexEnd;
   margin-right: 20%;
@@ -111,6 +118,7 @@ svg.MuiSvgIcon-root.iconSocialMedia {
 .photoOfMe {
   @include flexJustifyFlexEnd;
   @include homeTabletsPhoto;
+  @include homeMobilePhoto;
   margin-right: 10%;
   position: absolute;
   top: 150px;
@@ -119,6 +127,7 @@ svg.MuiSvgIcon-root.iconSocialMedia {
 }
 
 .me {
+  @include mobilePhoto;
   border: 1px solid black;
   border-radius: 48%;
   width: 30%;

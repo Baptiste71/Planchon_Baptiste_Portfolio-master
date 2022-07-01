@@ -12,9 +12,19 @@
   @include flexDirectionRow;
   width: 75%;
   justify-content: space-around;
+  padding-left: 0px;
   & a {
     color: $txtColorPrimary;
     text-decoration: none;
     list-style: none;
   }
+}
+
+.navDesktop {
+  @include navMobile;
+}
+
+.mobileIcon {
+  @include displayInitial;
+  display: none;
 }
