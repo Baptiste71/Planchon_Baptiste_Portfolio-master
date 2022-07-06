@@ -48,6 +48,33 @@
   width: 50%;
 }
 
+.booki {
+  color: $themeBooki;
+}
+
+.bookiBorder {
+  border-top: 10px solid $themeBooki;
+  padding-top: 90px;
+}
+
+.ohmyfood {
+  color: $themeOhmyfood2;
+}
+
+.ohmyfoodBorder {
+  border-top: 10px solid $themeOhmyfood1;
+  padding-top: 90px;
+}
+
+.laChouetteAgence {
+  color: $themeLaChouetteAgence;
+}
+
+.laChouetteAgenceBorder {
+  border-top: 10px solid $themeLaChouetteAgence;
+  padding-top: 90px;
+}
+
 .projectDescription {
   width: 60%;
   text-align: center;
