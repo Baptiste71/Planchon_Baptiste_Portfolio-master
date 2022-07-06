@@ -26,6 +26,11 @@
   flex-direction: row;
 }
 
+@mixin flexDirectionRowReverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 @mixin flexDirectionCol {
   display: flex;
   flex-direction: column;
