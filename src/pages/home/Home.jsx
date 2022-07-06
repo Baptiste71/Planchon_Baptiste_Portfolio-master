@@ -19,7 +19,7 @@ const Home = () => {
               JavaScript ainsi que le Framework React) et backend (JavaScript, le Framework Express de Node.js, les bases de données SQL avec PostgreSQL et l’ORM Sequelize et les bases de données NoSQL avec MongoDB).
             </p>
             <button className="go" type="submit">
-              <NavLink className="btnGo" to="/experiences">
+              <NavLink className="btnGo" to="/projects">
                 Allons-y
               </NavLink>
             </button>

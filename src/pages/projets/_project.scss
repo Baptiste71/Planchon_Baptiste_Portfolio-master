@@ -47,9 +47,13 @@
   align-items: center;
   width: 50%;
 }
+.attentionIcon {
+  color: red;
+}
 
 .booki {
   color: $themeBooki;
+  animation: apparition-menu 2s forwards;
 }
 
 .bookiBorder {
@@ -59,6 +63,7 @@
 
 .ohmyfood {
   color: $themeOhmyfood2;
+  animation: apparition-menu 2s 0.2s forwards;
 }
 
 .ohmyfoodBorder {
@@ -68,6 +73,7 @@
 
 .laChouetteAgence {
   color: $themeLaChouetteAgence;
+  animation: apparition-menu 2s 0.4s forwards;
 }
 
 .laChouetteAgenceBorder {
@@ -75,7 +81,42 @@
   padding-top: 90px;
 }
 
+.kanap {
+  color: $themeKanap;
+  animation: apparition-menu 2s 0.6s forwards;
+}
+
+.kanapBorder {
+  border-top: 10px solid $themeKanap;
+  padding-top: 90px;
+}
+
+.piiquante {
+  animation: apparition-menu 2s 0.8s forwards;
+}
+
+.piiquanteBorder {
+  border-top: 10px solid $themePiiquante;
+  padding-top: 90px;
+}
+
+.groupomania {
+  color: $themeGroupomania;
+  animation: apparition-menu 2s 1s forwards;
+}
+
+.groupomaniaBorder {
+  border-top: 10px solid $themeGroupomania;
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+
 .projectDescription {
+  width: 60%;
+  text-align: center;
+}
+
+.attention {
   width: 60%;
   text-align: center;
 }
@@ -88,6 +129,9 @@
 .miniatureProject {
   width: 90%;
   object-fit: cover;
+  &:hover {
+    box-shadow: 0px 6px 10px $buttonColor;
+  }
 }
 
 .imgProject {
