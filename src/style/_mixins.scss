@@ -168,6 +168,76 @@
 
 // Mes projets //
 
+@mixin projectTitleTablet {
+  @media screen and (min-width: $breakpointsTablets) and (max-width: $breakpointsDesktop) {
+    text-align: center;
+  }
+}
+
+@mixin projectIntroTablet {
+  @media screen and (min-width: $breakpointsTablets) and (max-width: $breakpointsDesktop) {
+    width: 60%;
+  }
+}
+
+@mixin projectTablet {
+  @media screen and (min-width: $breakpointsTablets) and (max-width: $breakpointsDesktop) {
+    @include flexDirectionCol;
+  }
+}
+
+@mixin titleAndTxtTablet {
+  @media screen and (min-width: $breakpointsTablets) and (max-width: $breakpointsDesktop) {
+    margin-bottom: 50px;
+  }
+}
+
+@mixin attentionTablet {
+  @media screen and (min-width: $breakpointsTablets) and (max-width: $breakpointsDesktop) {
+    width: 150%;
+  }
+}
+
+// projets version mobile //
+
+@mixin projectTitleMobile {
+  @media screen and (max-width: $breakpointsTablets) {
+    text-align: center;
+    font-size: 28px;
+  }
+}
+
+@mixin projectIntroMobile {
+  @media screen and (max-width: $breakpointsTablets) {
+    width: 60%;
+    font-size: 18px;
+  }
+}
+
+@mixin projectMobile {
+  @media screen and (max-width: $breakpointsTablets) {
+    @include flexDirectionCol;
+  }
+}
+
+@mixin titleAndTxtMobile {
+  @media screen and (max-width: $breakpointsTablets) {
+    margin-bottom: 50px;
+  }
+}
+
+@mixin attentionMobile {
+  @media screen and (max-width: $breakpointsTablets) {
+    width: 150%;
+  }
+}
+
+@mixin miniatureLinkMobile {
+  @media screen and (max-width: $breakpointsTablets) {
+    width: 70%;
+  }
+}
+
 // Animations //
 
 @mixin spinner {

@@ -68,7 +68,7 @@ const Experiences = () => {
               <p className="attention">
                 <FeedbackIcon className="attentionIcon" /> Pour visualiser le rendu final vous devez suivre le lien ci-dessous, il s'agit du repository du backend du site et suivre les instructions du ReadMe il s'agit juste d'ouvrir un terminal et de
                 taper la commande suivante: node server <br />
-                <a href="https://github.com/Baptiste71/BaptistePlanchon_5_02022022_Back">https://github.com/Baptiste71/BaptistePlanchon_5_02022022_Back</a>
+                <a href="https://github.com/Baptiste71/BaptistePlanchon_5_02022022_Back">Repository Github Backend</a>
               </p>
             </div>
             <a className="miniatureLink" href="https://baptiste71.github.io/BaptistePlanchon_5_02022022/">
@@ -87,10 +87,14 @@ const Experiences = () => {
               </p>
               <p className="attention">
                 <FeedbackIcon className="attentionIcon" /> Pour visualiser le rendu final, il vous faudra vous rendre dans les deux repositories front et back liens ci-dessous et suivre les instructions des readme pour chacun d'entre eux : <br />
-                <a href="https://github.com/Baptiste71/BaptistePlanchon_6_19032022-Front">https://github.com/Baptiste71/BaptistePlanchon_6_19032022-Front</a>
-                <br />
-                <a href="https://github.com/Baptiste71/Baptiste_Planchon_6_19032022_Back">https://github.com/Baptiste71/Baptiste_Planchon_6_19032022_Back</a>
               </p>
+              <div>
+                <a className="linkGithub" href="https://github.com/Baptiste71/BaptistePlanchon_6_19032022-Front">
+                  Repository Github Frontend
+                </a>
+                <br />
+                <a href="https://github.com/Baptiste71/Baptiste_Planchon_6_19032022_Back">Repository Github Backend</a>
+              </div>
             </div>
             <a className="miniatureLink" href="https://github.com/Baptiste71/BaptistePlanchon_6_19032022-Front">
               <div className="miniatureProject">
@@ -108,9 +112,9 @@ const Experiences = () => {
               </p>
               <p className="attention">
                 <FeedbackIcon className="attentionIcon" /> Pour visualiser le rendu final, vous devez vous rendre sur les deux repositories front et back liens ci-dessous, et suivre les instructions demandées dans les readme : <br />
-                <a href="https://github.com/Baptiste71/Planchon_Baptiste_7_09042022_Front">https://github.com/Baptiste71/Planchon_Baptiste_7_09042022_Front</a>
+                <a href="https://github.com/Baptiste71/Planchon_Baptiste_7_09042022_Front">Repository Github Frontend</a>
                 <br />
-                <a href="https://github.com/Baptiste71/Planchon_Baptiste_7_09042022_Back">https://github.com/Baptiste71/Planchon_Baptiste_7_09042022_Back</a>
+                <a href="https://github.com/Baptiste71/Planchon_Baptiste_7_09042022_Back">Repository Github Backend</a>
               </p>
             </div>
             <a className="miniatureLink" href="https://github.com/Baptiste71/Planchon_Baptiste_7_09042022_Front">
