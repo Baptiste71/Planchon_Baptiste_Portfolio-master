@@ -1,0 +1,62 @@
+@import "../../style/_main.scss";
+
+.introTitleFormation {
+  color: $txtColorPrimary;
+  font-size: 34px;
+}
+
+.formation {
+  color: $txtColorPrimary;
+}
+
+.introTitleDegree {
+  @include flexJustifyCenter;
+  margin-top: 150px;
+  color: $txtColorPrimary;
+  font-size: 28px;
+}
+
+.diploma {
+  @include flexJustifyCenter;
+  margin-top: 150px;
+  margin-left: 10%;
+  width: 80%;
+}
+
+.iconAndDescription {
+  @include flexDirectionRow;
+  align-items: center;
+  min-width: 30%;
+  width: 27%;
+}
+
+.linkDegree {
+  width: 15%;
+  height: 70px;
+}
+
+.iconDiploma {
+  @include flexJustifyCenter;
+  align-items: center;
+  color: $txtColorPrimary;
+  font-size: 30px;
+  border: 2px solid $txtColorPrimary;
+  opacity: 0.5;
+  border-radius: 33px;
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  margin-right: 5%;
+  z-index: 2;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0px 6px 10px $buttonColor;
+    opacity: 1;
+  }
+}
+
+.descriptionDiploma {
+  width: 80%;
+  color: $txtColorPrimary;
+  text-align: center;
+}
