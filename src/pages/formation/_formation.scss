@@ -1,22 +1,31 @@
 @import "../../style/_main.scss";
 
-.introduction {
-  margin-bottom: 70px;
+.presentationFormation {
+  margin-left: 10%;
+  width: 80%;
+  background-color: $txtColorPrimary;
+}
+
+.introductionFormation {
+  @include flexDirectionCol;
+  align-items: center;
+  margin-bottom: 150px;
+  color: $themePiiquante;
 }
 
 .introTitleFormation {
-  color: $txtColorPrimary;
+  color: $themePiiquante;
   font-size: 34px;
 }
 
 .formation {
-  color: $txtColorPrimary;
+  color: $themePiiquante;
 }
 
 .introTitleDegree {
   @include flexJustifyCenter;
   margin-top: 100px;
-  color: $txtColorPrimary;
+  color: $themeBooki;
   font-size: 28px;
 }
 
@@ -24,18 +33,26 @@
   @include flexJustifyCenter;
   margin-top: 100px;
   margin-bottom: 70px;
-  color: $txtColorPrimary;
+  color: $themeLaChouetteAgence;
+  font-size: 28px;
+}
+
+.introTitleWork {
+  @include flexJustifyCenter;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  color: $themeKanap;
   font-size: 28px;
 }
 
 .sectionDegree {
   border-top: 10px solid $themeBooki;
-  margin-bottom: 70px;
+  margin-bottom: 150px;
 }
 
 .sectionCertification {
   border-top: 10px solid $themeGroupomania;
-  margin-bottom: 70px;
+  margin-bottom: 150px;
 }
 
 .diploma {
@@ -97,6 +114,20 @@
 
 .descriptionDiploma {
   width: 80%;
-  color: $txtColorPrimary;
+  color: $themePiiquante;
+  text-align: center;
+}
+
+.workExperiences {
+  border-top: 10px solid $themeKanap;
+  padding-bottom: 100px;
+}
+
+.job {
+  @include flexDirectionCol;
+  align-items: center;
+  margin-left: 20%;
+  width: 60%;
+  margin-top: 70px;
   text-align: center;
 }
