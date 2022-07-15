@@ -1,0 +1,76 @@
+@import "../../style/_main.scss";
+
+.introductionContact {
+  @include flexDirectionCol;
+  align-items: center;
+  margin-bottom: 150px;
+  color: $txtColorPrimary;
+}
+
+.introTitleContact {
+  color: $txtColorPrimary;
+  font-size: 34px;
+}
+
+.contactMethod {
+  @include flexDirectionCol;
+  align-items: center;
+  width: 60%;
+  margin-left: 25%;
+  margin-bottom: 150px;
+}
+
+.component {
+  @include flexJustifyFlexStart;
+  align-items: center;
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+.icon {
+  @include alignItemCenter;
+  font-size: 34px;
+  color: $txtColorPrimary;
+  border: 2px solid $txtColorPrimary;
+  border-radius: 30px;
+  padding: 10px;
+  margin-right: 20%;
+  height: 35px;
+}
+
+svg.MuiSvgIcon-root.contactIcon {
+  font-size: 34px;
+}
+
+.componentDescription {
+  color: $txtColorPrimary;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.componentDescriptionLink {
+  text-decoration: none;
+  color: $txtColorPrimary;
+  border-radius: 30px;
+  &:hover {
+    box-shadow: 0px 6px 10px $buttonColor;
+  }
+}
+
+.curriculumVitae {
+  @include flexDirectionRow;
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.linkCv {
+  width: 15%;
+  margin-right: 5%;
+}
+
+.cvDescription {
+  font-size: 20px;
+  color: $txtColorPrimary;
+  text-align: center;
+}

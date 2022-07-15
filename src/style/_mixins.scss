@@ -56,6 +56,11 @@
   align-items: flex-end;
 }
 
+@mixin alignItemCenter {
+  display: flex;
+  align-items: center;
+}
+
 // Responsive Design //
 
 // Barre de navigation
