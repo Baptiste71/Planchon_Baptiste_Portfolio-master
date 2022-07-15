@@ -323,6 +323,47 @@
   }
 }
 
+// Contact //
+
+@mixin contactMethodMobile {
+  @media screen and (max-width: $breakpointsTablets) {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 50px;
+  }
+}
+
+@mixin componentMobile {
+  @media screen and (max-width: $breakpointsTablets) {
+    width: 90%;
+  }
+}
+
+@mixin iconMobile {
+  @media screen and (max-width: $breakpointsTablets) {
+    margin-right: 5%;
+  }
+}
+
+@mixin componentDescriptionMobile {
+  @media screen and (max-width: $breakpointsTablets) {
+    font-size: 20px;
+  }
+}
+
+@mixin curriculumVitaeMobile {
+  @media screen and (max-width: $breakpointsTablets) {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@mixin linkCvMobile {
+  @media screen and (max-width: $breakpointsTablets) {
+    width: 30%;
+  }
+}
+
 // Animations //
 
 @mixin spinner {

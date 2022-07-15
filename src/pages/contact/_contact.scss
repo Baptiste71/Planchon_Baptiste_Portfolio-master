@@ -13,6 +13,7 @@
 }
 
 .contactMethod {
+  @include contactMethodMobile;
   @include flexDirectionCol;
   align-items: center;
   width: 60%;
@@ -21,6 +22,7 @@
 }
 
 .component {
+  @include componentMobile;
   @include flexJustifyFlexStart;
   align-items: center;
   width: 60%;
@@ -28,6 +30,7 @@
 }
 
 .icon {
+  @include iconMobile;
   @include alignItemCenter;
   font-size: 34px;
   color: $txtColorPrimary;
@@ -43,6 +46,7 @@ svg.MuiSvgIcon-root.contactIcon {
 }
 
 .componentDescription {
+  @include componentDescriptionMobile;
   color: $txtColorPrimary;
   font-size: 24px;
   text-decoration: none;
@@ -58,6 +62,7 @@ svg.MuiSvgIcon-root.contactIcon {
 }
 
 .curriculumVitae {
+  @include curriculumVitaeMobile;
   @include flexDirectionRow;
   align-items: center;
   width: 80%;
@@ -65,6 +70,7 @@ svg.MuiSvgIcon-root.contactIcon {
 }
 
 .linkCv {
+  @include linkCvMobile;
   width: 15%;
   margin-right: 5%;
 }
