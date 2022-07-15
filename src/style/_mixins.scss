@@ -238,6 +238,86 @@
   }
 }
 
+// Ma Formation //
+
+@mixin diplomaTablet {
+  @media screen and (min-width: $breakpointsTablets) and (max-width: $breakpointsDesktop) {
+    @include flexDirectionCol;
+    align-items: center;
+    margin-top: 70px;
+    width: 80%;
+  }
+}
+
+@mixin iconAndDescriptionTablet {
+  @media screen and (min-width: $breakpointsTablets) and (max-width: $breakpointsDesktop) {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
+
+@mixin certificationTablet {
+  @media screen and (min-width: $breakpointsTablets) and (max-width: $breakpointsDesktop) {
+    width: 80%;
+    @include flexDirectionCol;
+    align-items: center;
+    margin-top: 70px;
+  }
+}
+
+@mixin certificationTablet2 {
+  @media screen and (min-width: $breakpointsTablets) and (max-width: $breakpointsDesktop) {
+    width: 80%;
+    @include flexDirectionCol;
+    align-items: center;
+    margin-top: 0px;
+  }
+}
+
+// Ma formation mobile //
+
+@mixin diplomaMobile {
+  @media screen and (max-width: $breakpointsTablets) {
+    @include flexDirectionCol;
+    align-items: center;
+    margin-top: 70px;
+    width: 80%;
+  }
+}
+
+@mixin iconAndDescriptionMobile {
+  @media screen and (max-width: $breakpointsTablets) {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
+
+@mixin certificationMobile {
+  @media screen and (max-width: $breakpointsTablets) {
+    width: 80%;
+    @include flexDirectionCol;
+    align-items: center;
+    margin-top: 70px;
+  }
+}
+
+@mixin certificationMobile2 {
+  @media screen and (max-width: $breakpointsTablets) {
+    width: 80%;
+    @include flexDirectionCol;
+    align-items: center;
+    margin-top: 0px;
+  }
+}
+
+@mixin titleMobile2 {
+  @media screen and (max-width: $breakpointsTablets) {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+  }
+}
+
 // Animations //
 
 @mixin spinner {

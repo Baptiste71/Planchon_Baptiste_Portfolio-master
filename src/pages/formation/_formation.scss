@@ -23,6 +23,7 @@
 }
 
 .introTitleDegree {
+  @include titleMobile2;
   @include flexJustifyCenter;
   margin-top: 100px;
   color: $themeBooki;
@@ -30,6 +31,7 @@
 }
 
 .introTitleCertification {
+  @include titleMobile2;
   @include flexJustifyCenter;
   margin-top: 100px;
   margin-bottom: 70px;
@@ -38,6 +40,7 @@
 }
 
 .introTitleWork {
+  @include titleMobile2;
   @include flexJustifyCenter;
   margin-top: 100px;
   margin-bottom: 70px;
@@ -56,6 +59,8 @@
 }
 
 .diploma {
+  @include diplomaMobile;
+  @include diplomaTablet;
   @include flexJustifyCenter;
   margin-top: 150px;
   margin-left: 10%;
@@ -68,12 +73,16 @@
 }
 
 .ligne1 {
+  @include certificationMobile;
+  @include certificationTablet;
   @include flexDirectionRow;
   justify-content: center;
   margin-top: 150px;
 }
 
 .ligne2 {
+  @include certificationMobile2;
+  @include certificationTablet2;
   @include flexDirectionRow;
   justify-content: center;
   margin-top: 70px;
@@ -81,6 +90,8 @@
 }
 
 .iconAndDescription {
+  @include iconAndDescriptionMobile;
+  @include iconAndDescriptionTablet;
   @include flexDirectionRow;
   align-items: center;
   min-width: 30%;

@@ -12,7 +12,7 @@ const Experiences = () => {
       <div className="presentationProject">
         <div className="introduction">
           <h1 className="introTitle">Mes projets professionalisants</h1>
-          <p className="introTxt">Sur cette page vous y trouverez tout les projets proffesionalisants réalisés lors de ma formation avec OpenClassroom avec un petit descriptif de l'objectif du projet et la possibilité de le parcourir</p>
+          <p className="introTxt">Sur cette page vous y trouverez tout les projets profesionnalisants réalisés lors de ma formation avec OpenClassroom avec un petit descriptif de l'objectif du projet et la possibilité de le parcourir</p>
         </div>
         <div className="Projects">
           <div className="presentationNormal bookiBorder">

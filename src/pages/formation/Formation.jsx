@@ -167,7 +167,7 @@ const Formation = () => {
             <p className="jodDate">Du 5 Octobre 2021 au 2 Juin 2022</p>
             <p className="jobDescription">
               Au sein de l'organisme de formations en ligne OpenClassrooms, j'ai effectuer la formation Développeur web niveau bac +2 dans le but de me reconvertir professionnellement. Par le biais de cette formation, il y a eu six projets
-              proffesionnalisants que vous avez pu découvrir la page précédente ainsi que un, le premier des sept, dont l'objectif était d'apprendre à apprendre seul, de faire le point sur nos soft et hard skills ainsi que de faire une veille
+              profesionnalisants que vous avez pu découvrir la page précédente ainsi que un, le premier des sept, dont l'objectif était d'apprendre à apprendre seul, de faire le point sur nos soft et hard skills ainsi que de faire une veille
               technologique. <br /> Il s'agissait d'une formation professionnelle initialement d'une durée de six mois, j'ai préféré prendre mon temps pour la faire afin d'avoir la certitude de faire les chose correctement et de bien comprendre
               chaque projets.
             </p>
