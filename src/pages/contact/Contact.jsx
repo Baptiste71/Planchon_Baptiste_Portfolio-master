@@ -55,7 +55,7 @@ const Contact = () => {
             <FolderIcon />
           </button>
         </a>
-        <p className="cvDescription">Vous souhaitez télécharger mon CV ? C'est trés simple il vous suffit juste de cliquer de le bouton pour avoir accès au fichier PDF.</p>
+        <p className="cvDescription">Vous souhaitez télécharger mon CV ? C'est très simple il vous suffit juste de cliquer de le bouton pour avoir accès au fichier PDF.</p>
       </div>
     </div>
   );
