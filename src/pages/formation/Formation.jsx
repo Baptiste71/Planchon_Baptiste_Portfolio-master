@@ -159,7 +159,7 @@ const Formation = () => {
             <p className="jodDate">Du 14 Juin 2021 au 30 Septembre 2021</p>
             <p className="jobDescription">
               Au sein d'une entreprise pharmaceutique, mon rôle était de préparer une masse collante à partir d'une recette bien spécifique et de l'appliquée aprés un temps minimum de malaxage sur des bandes de tissu destinés à la fabrication de
-              pansements. Je devais également assurer la maintenance préventive du four de séchage afin d'éviter les opérations de maintenance curative et donc une perte de production. <br /> Il s'agissait d'un contrat d'interim d'une semaine.
+              pansements. Je devais également assurer la maintenance préventive du four de séchage afin d'éviter les opérations de maintenance curative et donc une perte de production. <br /> Il s'agissait d'un contrat en CDI.
             </p>
           </div>
           <div className="job">
