@@ -36,6 +36,11 @@
   flex-direction: column;
 }
 
+@mixin flexDirectionColReverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 @mixin flexSpaceBetween {
   display: flex;
   justify-content: space-between;

@@ -119,58 +119,60 @@ const Formation = () => {
         </div>
         <div className="workExperiences">
           <h2 className="introTitleWork">Mes expériences profesionnelles</h2>
-          <div className="job">
-            <h3 className="jobName">Employé Libre-service</h3>
-            <p className="jodDate">Du 14 Octobre 2013 au 9 Novembre 2013</p>
-            <p className="jobDescription">
-              Au sein d'une entreprise de grande distribution, mon rôle était de mettre en rayon les liquides c'est à dire eau, soda, alcool, etc... Je devais également quelques fois par semaine prêter main forte pour la mise en rayons des produits
-              frais. <br /> Il s'agissait d'un contrat en CDD.
-            </p>
-          </div>
-          <div className="job">
-            <h3 className="jobName">Technicien Enduction</h3>
-            <p className="jodDate">Du 2 Décembre 2013 au 6 Décembre 2013</p>
-            <p className="jobDescription">
-              Au sein d'une entreprise pharmaceutique, mon rôle était de préparer une masse collante à partir d'une recette bien spécifique et de l'appliquée aprés un temps minimum de malaxage sur des bandes de tissu destinés à la fabrication de
-              pansements. <br /> Il s'agissait d'un contrat d'interim d'une semaine.
-            </p>
-          </div>
-          <div className="job">
-            <h3 className="jobName">Technicien de production</h3>
-            <p className="jodDate">Du 1 Avril 2014 au 21 Décembre 2018</p>
-            <p className="jobDescription">
-              Au sein d'une entreprise de mécanique de précision et d'injection plastique, mon rôle était de régler les presses à injecter avant la mise en production, d'effectuer la maintenance préventive et curative des presses, de gérer le stock
-              de matières premières, de gérer le service qualité et de gérer une équipe de 10 personnes à partir du 14 Décembre 2015. <br />
-              Il s'agissait d'un contrat en CDI.
-            </p>
-          </div>
-          <div className="job">
-            <h3 className="jobName">Ajusteur-Monteur</h3>
-            <p className="jodDate">Du 27 Juin 2019 au 11 Juin 2021</p>
-            <p className="jobDescription">
-              Au sein d'une entreprise de mécanique de précision spécialisée dans la création de moule pour l'injection plastique, mon rôle était d'ajuster la fermeture du moule afin de le rendre étanche lors de la phase d'injection et d'ajuster
-              également toutes les parties amovibles du moule comme les cales ou les éjécteurs par exemple. Je devais aussi monter tous les éléments auxiliaires du moule comme par exemple des vérins pneumatique, des poignées de transports, etc...{" "}
-              <br />
-              Il s'agissait d'un contrat en CDI.
-            </p>
-          </div>
-          <div className="job">
-            <h3 className="jobName">Technicien Enduction</h3>
-            <p className="jodDate">Du 14 Juin 2021 au 30 Septembre 2021</p>
-            <p className="jobDescription">
-              Au sein d'une entreprise pharmaceutique, mon rôle était de préparer une masse collante à partir d'une recette bien spécifique et de l'appliquée aprés un temps minimum de malaxage sur des bandes de tissu destinés à la fabrication de
-              pansements. Je devais également assurer la maintenance préventive du four de séchage afin d'éviter les opérations de maintenance curative et donc une perte de production. <br /> Il s'agissait d'un contrat en CDI.
-            </p>
-          </div>
-          <div className="job">
-            <h3 className="jobName">Dévéloppeur web</h3>
-            <p className="jodDate">Du 5 Octobre 2021 au 2 Juin 2022</p>
-            <p className="jobDescription">
-              Au sein de l'organisme de formations en ligne OpenClassrooms, j'ai effectuer la formation Développeur web niveau bac +2 dans le but de me reconvertir professionnellement. Par le biais de cette formation, il y a eu six projets
-              profesionnalisants que vous avez pu découvrir la page précédente ainsi que un, le premier des sept, dont l'objectif était d'apprendre à apprendre seul, de faire le point sur nos soft et hard skills ainsi que de faire une veille
-              technologique. <br /> Il s'agissait d'une formation professionnelle initialement d'une durée de six mois, j'ai préféré prendre mon temps pour la faire afin d'avoir la certitude de faire les chose correctement et de bien comprendre
-              chaque projets.
-            </p>
+          <div className="allWorkExperiences">
+            <div className="job">
+              <h3 className="jobName">Employé Libre-service</h3>
+              <p className="jodDate">Du 14 Octobre 2013 au 9 Novembre 2013</p>
+              <p className="jobDescription">
+                Au sein d'une entreprise de grande distribution, mon rôle était de mettre en rayon les liquides c'est à dire eau, soda, alcool, etc... Je devais également quelques fois par semaine prêter main forte pour la mise en rayons des produits
+                frais. <br /> Il s'agissait d'un contrat en CDD.
+              </p>
+            </div>
+            <div className="job">
+              <h3 className="jobName">Technicien Enduction</h3>
+              <p className="jodDate">Du 2 Décembre 2013 au 6 Décembre 2013</p>
+              <p className="jobDescription">
+                Au sein d'une entreprise pharmaceutique, mon rôle était de préparer une masse collante à partir d'une recette bien spécifique et de l'appliquée aprés un temps minimum de malaxage sur des bandes de tissu destinés à la fabrication de
+                pansements. <br /> Il s'agissait d'un contrat d'interim d'une semaine.
+              </p>
+            </div>
+            <div className="job">
+              <h3 className="jobName">Technicien de production</h3>
+              <p className="jodDate">Du 1 Avril 2014 au 21 Décembre 2018</p>
+              <p className="jobDescription">
+                Au sein d'une entreprise de mécanique de précision et d'injection plastique, mon rôle était de régler les presses à injecter avant la mise en production, d'effectuer la maintenance préventive et curative des presses, de gérer le stock
+                de matières premières, de gérer le service qualité et de gérer une équipe de 10 personnes à partir du 14 Décembre 2015. <br />
+                Il s'agissait d'un contrat en CDI.
+              </p>
+            </div>
+            <div className="job">
+              <h3 className="jobName">Ajusteur-Monteur</h3>
+              <p className="jodDate">Du 27 Juin 2019 au 11 Juin 2021</p>
+              <p className="jobDescription">
+                Au sein d'une entreprise de mécanique de précision spécialisée dans la création de moule pour l'injection plastique, mon rôle était d'ajuster la fermeture du moule afin de le rendre étanche lors de la phase d'injection et d'ajuster
+                également toutes les parties amovibles du moule comme les cales ou les éjécteurs par exemple. Je devais aussi monter tous les éléments auxiliaires du moule comme par exemple des vérins pneumatique, des poignées de transports, etc...{" "}
+                <br />
+                Il s'agissait d'un contrat en CDI.
+              </p>
+            </div>
+            <div className="job">
+              <h3 className="jobName">Technicien Enduction</h3>
+              <p className="jodDate">Du 14 Juin 2021 au 30 Septembre 2021</p>
+              <p className="jobDescription">
+                Au sein d'une entreprise pharmaceutique, mon rôle était de préparer une masse collante à partir d'une recette bien spécifique et de l'appliquée aprés un temps minimum de malaxage sur des bandes de tissu destinés à la fabrication de
+                pansements. Je devais également assurer la maintenance préventive du four de séchage afin d'éviter les opérations de maintenance curative et donc une perte de production. <br /> Il s'agissait d'un contrat en CDI.
+              </p>
+            </div>
+            <div className="job">
+              <h3 className="jobName">Dévéloppeur web</h3>
+              <p className="jodDate">Du 5 Octobre 2021 au 2 Juin 2022</p>
+              <p className="jobDescription">
+                Au sein de l'organisme de formations en ligne OpenClassrooms, j'ai effectuer la formation Développeur web niveau bac +2 dans le but de me reconvertir professionnellement. Par le biais de cette formation, il y a eu six projets
+                profesionnalisants que vous avez pu découvrir la page précédente ainsi que un, le premier des sept, dont l'objectif était d'apprendre à apprendre seul, de faire le point sur nos soft et hard skills ainsi que de faire une veille
+                technologique. <br /> Il s'agissait d'une formation professionnelle initialement d'une durée de six mois, j'ai préféré prendre mon temps pour la faire afin d'avoir la certitude de faire les chose correctement et de bien comprendre
+                chaque projets.
+              </p>
+            </div>
           </div>
         </div>
       </div>
