@@ -34,7 +34,7 @@ const Experiences = () => {
               <h2 className="projectName ohmyfood">Projet Ohmyfood</h2>
               <p className="projectDescription">
                 Second projet professionnalisant avec l'organisme OpenClassrooms, l'objectif de ce projet était de faire un site web vitrine pour une entreprise qui partage des menus de restaurants sur son site web. Pour ce faire une maquette était
-                donnée en mobile first et il fallait donc adapter le site en format tablette et desktop. Les compétences utilisées en plus d'HTML5 & CSS3 ont été l'utilisation de SASS et la création d'animation CSS pour chaque pages.
+                donnée en mobile first et il fallait donc adapter le site en format tablette et desktop. Les compétences utilisées en plus d'HTML5 & CSS3 ont été l'utilisation de SASS et la création d'animations CSS pour chaque pages.
               </p>
             </div>
             <a className="miniatureLink" href="https://baptiste71.github.io/BaptistePlanchon_3_06122021/">

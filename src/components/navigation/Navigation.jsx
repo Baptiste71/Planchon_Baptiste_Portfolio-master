@@ -29,12 +29,12 @@ const Navigation = () => {
           </span>
           <li className="navDesktop">Ma formation</li>
         </NavLink>
-        <NavLink className="videoPresentation" to="/videopresentation">
+        {/*<NavLink className="videoPresentation" to="/videopresentation">
           <span className="mobileIcon">
             <VideoLibraryIcon />
           </span>
           <li className="navDesktop">Presentation vidéo</li>
-        </NavLink>
+  </NavLink>*/}
         <NavLink className="contact" to="/contact">
           <span className="mobileIcon">
             <EmailIcon />
