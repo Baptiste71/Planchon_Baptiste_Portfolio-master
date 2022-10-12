@@ -35,7 +35,7 @@ const Formation = () => {
               <div className="descriptionDiploma">Baccalauréat Professionnel Maintenance des équipements industriels (MEI).</div>
             </div>
             <div className="iconAndDescription">
-              <a className="linkDegree" href="diplome/Attestation-de-réussite.pdf">
+              <a className="linkDegree" href="diplome/diplome_OC_signe.pdf">
                 <button type="button" className="iconDiploma">
                   <WorkspacePremiumIcon />
                 </button>
